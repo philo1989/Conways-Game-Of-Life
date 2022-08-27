@@ -1,0 +1,20 @@
+*{
+	white-space: nowrap;
+	margin:0px;padding: 0px;
+}
+.cell{
+	display: inline-block;
+	width: 20px;height: 20px;
+	margin: 1px;
+	background: #111;
+}
+.cell:hover{background: red;}
+.mark{
+	display: inline-block;
+	width: 20px;height: 20px;
+	margin: 1px;
+	background: red;
+}
+.mark:hover{
+	background: #111;
+}

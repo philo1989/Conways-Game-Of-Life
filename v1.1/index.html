@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="de">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Conways Game of Life</title>
+		<script type="text/javascript" src=""></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>	
+	<body>
+
+		<div id="input">
+		<form name="values">
+			<span>Felder X-Achse</span>
+			<input type="text" name="X" value="40">
+			<span>Felder Y-Achse</span>
+			<input type="text" name="Y" value="40">
+			<span>Anzahl Start Gen</span>
+			<input type="text" name="start_cells" value="0"> 
+			<button type="button" onclick="createField()">Draw</button>
+			<button type="button" onclick="run()" id="startButton">Start</button>
+			<!--<button type="button" onclick="run()" id="stopButton">Start</button>-->
+			<span class="cell" id="load"></span>
+			<span id="loopCount">Generation</span>
+		</form>
+		</div>
+		<a href="http://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens">Conways game of Life</a>
+
+		<div id="Da_Game">
+			<!--the place where the actual magic happens ;)-->
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+	</div>
+	</body>
+</html>
